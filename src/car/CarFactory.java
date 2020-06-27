@@ -12,6 +12,4 @@ public class CarFactory {
         int mileage = scanner.nextInt();
         return new Car(brand, mileage);
     }
-
-
 }

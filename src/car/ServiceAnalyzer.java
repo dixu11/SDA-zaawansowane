@@ -2,7 +2,6 @@ package car;
 
 public class ServiceAnalyzer {
 
-
     public void printCarServiceState (Car car){
         int distanceToService = car.howManyToService();
         if (distanceToService > 0) {
