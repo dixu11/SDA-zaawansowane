@@ -1,9 +1,20 @@
 package car;
 
+import java.util.Scanner;
+
 public class CarDemo {
 
     public static void main(String[] args) {
-        Car car1 = new Car("Fiat",1000);
+        CarFactory factory = new CarFactory();
+        Car car = factory.createCarFromScanner();
+        ServiceAnalyzer analyzer = new ServiceAnalyzer();
+        analyzer.printCarServiceState(car);
+
+
+
+
+
+       /* Car car1 = new Car("Fiat",1000);
         Car car2 = new Car("BMW",2000);
 
 //        car1.print();
@@ -24,7 +35,7 @@ public class CarDemo {
 
         System.out.println("Do serwisu dla samochodu "
                 + car2.getBrand() + " zostało " + car2.howManyToService()+
-                "km");
+                "km");*/
 
     }
 
