@@ -3,12 +3,16 @@ package inheritance;
 public class Dog  extends Pet{
 
     public Dog() {
-        name = "Reksio";
-        age = 1;
+        super("Reksio", 1);
+    }
+
+    public Dog(String name, int age){
+        super(name,age);
     }
 
     @Override
     public void feed(){
+        super.feed();
         System.out.println(name + " its bone");
     }
 

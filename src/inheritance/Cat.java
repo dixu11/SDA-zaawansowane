@@ -2,12 +2,16 @@ package inheritance;
 
 public class Cat extends Pet {
 
-    public Cat() {
-        name = "Filemon";
-        age = 2;
+    public Cat(String name, int age) {
+        super(name, age);
     }
 
+  /*  public Cat() {
+        super("Filemon", 2);
+    }*/
+
     public void feed() {
+        super.feed();
         System.out.println(name + " eats cat fish");
     }
 
