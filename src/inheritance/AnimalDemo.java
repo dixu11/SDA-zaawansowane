@@ -4,9 +4,14 @@ import java.util.ArrayList;
 
 public class AnimalDemo {
     public static void main(String[] args) {
-        Dog dog = new Dog();
-        dog.bark();
-        dog.fetch();
+       // Pet hamster = new Pet("Johny", 1);
+       // hamster.feed();
+
+
+
+        Pet dog = new Dog();
+//        dog.bark();
+//        dog.fetch();
         dog.feed();
 
         Pet dog2 = new Dog("Bruno", 6);

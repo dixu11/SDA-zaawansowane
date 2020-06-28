@@ -1,6 +1,6 @@
 package inheritance;
 
-public class Pet {
+public abstract class Pet {
     protected String name;
     protected int age;
 
@@ -9,7 +9,8 @@ public class Pet {
         this.age = age;
     }
 
-    public void feed(){
-        System.out.println("It's time to eat!");
-    }
+    public abstract void feed();
+
+    public abstract void run();
+
 }

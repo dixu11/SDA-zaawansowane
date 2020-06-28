@@ -12,8 +12,13 @@ public class Dog  extends Pet{
 
     @Override
     public void feed(){
-        super.feed();
+//        super.feed();
         System.out.println(name + " its bone");
+    }
+
+    @Override
+    public void run() {
+        System.out.println("Dog runs fast");
     }
 
     public void bark() {

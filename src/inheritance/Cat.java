@@ -11,8 +11,12 @@ public class Cat extends Pet {
     }*/
 
     public void feed() {
-        super.feed();
+//        super.feed();
         System.out.println(name + " eats cat fish");
+    }
+
+    public void run(){
+        System.out.println("Cat running silently");
     }
 
 
