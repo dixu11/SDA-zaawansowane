@@ -35,4 +35,13 @@ public class Ogrod {
                 ", drzewa=" + Arrays.toString(drzewa) +
                 '}';
     }
+
+    public Drzewo[] getDrzewa() {
+        return drzewa;
+    }
+
+    public void podlejWybraneDrzewo(int numerDrzewa){
+        drzewa[numerDrzewa-1].podlej();
+    }
+
 }

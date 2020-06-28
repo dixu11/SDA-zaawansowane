@@ -13,5 +13,11 @@ public class Demo {
         ogrod.zamknijBramke();
         ogrod.podlejWszystkieDrzewa();
         System.out.println(ogrod);
+
+        //podlanie ostatniego drzewa
+        ogrod.getDrzewa()[2].podlej();
+        ogrod.podlejWybraneDrzewo(3);
+
+
     }
 }
