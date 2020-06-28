@@ -35,7 +35,7 @@ public class SignDemo {
 
         System.out.println(sign.getDegrees());
 
-        Direction myDirection = new Direction();
+        //Direction myDirection = new Direction();
 
 
     }
