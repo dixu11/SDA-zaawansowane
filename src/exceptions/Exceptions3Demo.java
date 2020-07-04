@@ -20,7 +20,5 @@ public class Exceptions3Demo {
         }
         System.out.println("Koniec");
 
-
-
     }
 }
