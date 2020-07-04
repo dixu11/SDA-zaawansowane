@@ -31,7 +31,7 @@ Zaimplementuj również metodę “disconnect” zmieniający stan obiektu na ni
       }finally {
           connection.disconnect();
       }
-        System.out.println("Połączenie zamknięte: " + connection.isConnected());
+        System.out.println("Połączenie otwarte: " + connection.isConnected());
 
     }
 }
