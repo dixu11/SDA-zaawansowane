@@ -19,12 +19,17 @@ public class Cat extends Pet {
         System.out.println("Cat running silently");
     }
 
-
-    public void meow() {
+    @Override
+    public void makeSound() {
         System.out.println("Meow meow!");
     }
 
     public void scratch() {
         System.out.println(name + " scratches chair");
+    }
+
+    @Override
+    public void zrobSztuczke() {
+        System.out.println("Wskakuje na lodówkę z podłogi");
     }
 }

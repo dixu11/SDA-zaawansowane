@@ -1,4 +1,4 @@
-package citizen;
+package inheritance.citizen;
 
 /*
 * Stwórz klasę abstrakcyjną Citizen oraz klasy dziedziczące:
@@ -26,7 +26,7 @@ public class CitizenDemo {
         Citizen citizen3 = new King();
         Citizen citizen4 = new Townsman();
 
-//        System.out.println(citizen.canVote());
+//        System.out.println(inheritance.citizen.canVote());
 //        System.out.println(citizen2.canVote());
 
         Town town = new Town();

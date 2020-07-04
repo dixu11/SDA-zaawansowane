@@ -1,4 +1,4 @@
-package citizen;
+package inheritance.citizen;
 
 public class Townsman extends Citizen {
 

@@ -1,6 +1,6 @@
 package inheritance;
 
-public abstract class Pet {
+public abstract class Pet implements ZwierzeDomowe{
     protected String name;
     protected int age;
 
@@ -13,4 +13,13 @@ public abstract class Pet {
 
     public abstract void run();
 
+    public abstract void makeSound();
+
+    @Override
+    public String toString() {
+        return "Pet{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }

@@ -1,6 +1,6 @@
-package citizen;
+package inheritance.citizen;
 
-public class King extends Citizen {
+public class Peasant extends Citizen {
     @Override
     public boolean canVote() {
         return false;

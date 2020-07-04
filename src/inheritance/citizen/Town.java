@@ -1,4 +1,4 @@
-package citizen;
+package inheritance.citizen;
 
 import java.util.ArrayList;
 
@@ -19,6 +19,8 @@ public class Town {
         }
         return counter;
     }
+
+    //dodatkowo trzeba zrobić whoCanVote
 
     @Override
     public String toString() {

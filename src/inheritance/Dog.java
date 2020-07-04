@@ -1,6 +1,6 @@
 package inheritance;
 
-public class Dog  extends Pet{
+public class Dog  extends Pet implements ZwierzeDomowe{
 
     public Dog() {
         super("Reksio", 1);
@@ -21,7 +21,8 @@ public class Dog  extends Pet{
         System.out.println("Dog runs fast");
     }
 
-    public void bark() {
+    @Override
+    public void makeSound() {
         System.out.println("Woof, woof!");
     }
 
@@ -30,4 +31,8 @@ public class Dog  extends Pet{
     }
 
 
+    @Override
+    public void zrobSztuczke() {
+        System.out.println("Aportuje");
+    }
 }
