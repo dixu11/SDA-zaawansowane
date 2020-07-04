@@ -1,3 +1,4 @@
-Lorem ipsum
-bla bla
-itp.
+Rusz Głową JAVA!
+Czysty Kod
+Rusz Głową Wzorce Projektowe
+Pragmatyczny Programista

@@ -9,7 +9,5 @@ public class Exceptions4Demo {
         }catch (ShopException e){
             System.out.println(e.getMessage());
         }
-
-
     }
 }

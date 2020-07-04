@@ -9,7 +9,6 @@ public class RandomDemo {
             "Dima",
             "Dorian",
             "Izabela",
-            "Karolina",
             "Krzysztof",
             "Kuba",
             "Łukasz",
