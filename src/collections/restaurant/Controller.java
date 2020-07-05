@@ -86,8 +86,4 @@ public class Controller {
        System.out.println("Zamykamy interes");
        running = false;
    }
-
-
-
-
 }

@@ -1,4 +1,4 @@
-package collections.restaurant;
+package collections.sort.sortingTask;
 
 import java.util.Objects;
 
@@ -15,10 +15,6 @@ public class Dish {
         this.price = price;
         this.kcal = kcal;
         this.kind = kind;
-    }
-
-    public double getPrice() {
-        return price;
     }
 
     @Override

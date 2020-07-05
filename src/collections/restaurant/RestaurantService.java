@@ -1,11 +1,16 @@
 package collections.restaurant;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
-//przygotowuje odpowiednie dane (wyszukowanie, sortowanie, filtracja), zmienia stan obiektu (np. dodaje nowe zamówienie) -> cała logika aplikacji
+/*
+* ontynuuj pracę nad restauracją implementując następujące metody:
+metoda zwracająca wszystkie dania w formie nieuporządkowanej
+metoda zwracająca dania posortowane wg. Comparatora porównującego ceny
+metoda zwracająca dania posortowane wg. Comparatora porównującego wartości kaloryczne
+zmodyfikuj poprzednią metodę tak żeby przyjmowała argument typu enum o wartości DESC lub ASC modyfikujący działanie metody. W przypadku ASC sortować ma rosnąco w przypadku DESC malejąco
+metoda zwracająca dania wg ich naturalnego porządku - w pierwszej kolejności wg. nazwy, w drugiej według ceny
+*
+* */
 public class RestaurantService {
 
     private Set<Dish> dishes = new HashSet<>();
@@ -18,10 +23,17 @@ public class RestaurantService {
         dishes.add(dish);
     }
 
-    /*
-    * stwórz metodę pozwalającą wyszukać danie po nazwie, ma ona zwracać obiekt typu Dish, w przypadku nie odnalezienia
-    *  takiego obiektu obiektu ma rzucać wyjątek typu RestaurantException
-    * */
+    public List<Dish> getDishesSortedByPrise(){
+        List<Dish> sorted = new ArrayList<>(dishes);
+        sorted.sort(new Comparator<Dish>() {
+            @Override
+            public int compare(Dish dish1, Dish dish2) {
+                return (int)(dish1.getPrice() - dish2.getPrice());
+            }
+        });
+        return sorted;
+    }
+
 
     public Dish findDishesByExactName(String name){
         for (Dish dish : dishes) {
