@@ -37,7 +37,8 @@ public class Demo {
                 return text1.length() - text2.length();
             }
         });
-        // Collections.sort(names); //metoda nie wymaga Comparatora
+         Collections.sort(names); //metoda nie wymaga Comparatora
+
         System.out.println(names);
 
 
