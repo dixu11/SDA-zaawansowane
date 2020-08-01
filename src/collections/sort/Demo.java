@@ -40,7 +40,5 @@ public class Demo {
          Collections.sort(names); //metoda nie wymaga Comparatora
 
         System.out.println(names);
-
-
     }
 }
