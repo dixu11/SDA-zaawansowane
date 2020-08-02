@@ -9,8 +9,6 @@ public class Spammer implements Runnable{
     private Thread runner = new Thread(this);
     private boolean running = true;
 
-
-
     @Override
     public void run() {
         //LocalTime startTime = LocalTime.MAX.now();
