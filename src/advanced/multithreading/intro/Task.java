@@ -1,4 +1,4 @@
-package advanced.multithreading;
+package advanced.multithreading.intro;
 
 public class Task implements Runnable{
 

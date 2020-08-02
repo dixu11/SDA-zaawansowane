@@ -1,4 +1,4 @@
-package advanced.multithreading;
+package advanced.multithreading.intro;
 
 public class ThreadsDemo {
     public static void main(String[] args) {
