@@ -1,4 +1,4 @@
-package advanced.java8;
+package advanced.java8.intro;
 
 public class Kalkulator {
 
